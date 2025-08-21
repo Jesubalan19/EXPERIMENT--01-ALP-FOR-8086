@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :Jesubalan A
+Roll no: 212223240060
+Date of experiment : 21/08/2025
 
 
 
@@ -77,25 +77,127 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition  of 16 bit ALP 
+```
+org 100h
 
+mov ax,2a35h
+mov bx,5f35h
+add ax,bx
+
+ret
+```
 
 
 ## Output  
+<img width="1134" height="825" alt="Screenshot 2025-08-18 143142" src="https://github.com/user-attachments/assets/132fba7f-c5a1-43fd-be57-ac5b8a6af942" />
+
  
-## Subtraction   of 8 bit numbers  ALP 
+## Subtraction   of 16 bit numbers  ALP 
+```
+org 100h
+
+mov ax,2a35h
+mov bx,[5f35h]
+
+sub ax,bx
+
+ret
+```
  
-## Output  
+## Output
+<img width="1104" height="807" alt="Screenshot 2025-08-21 132804" src="https://github.com/user-attachments/assets/defb3c01-677f-4678-b34e-c354d0c2d89d" />
+
 ## Multiplication alp 
+```
+org 100h
+
+mov ax,0x2a35h
+mov bx,0x5f35h
+
+mul bx
+
+ret
+```
  ## Output  
+ 
+<img width="1114" height="828" alt="Screenshot 2025-08-18 143745" src="https://github.com/user-attachments/assets/341992bd-cf0b-49f4-b1ca-2bc5bf010ec4" />
 
 
 ## Division alp 
+```
+org 100h
+
+mov ax,0x2a35h
+mov bx,0x5f35h
+
+div bx
+
+ret
+```
 
 ## Output  
 
+<img width="1111" height="833" alt="Screenshot 2025-08-18 143832" src="https://github.com/user-attachments/assets/950e7daf-e2db-4957-bf40-dc9ae3551abe" />
+
+## AND of 16 bit numbers ALP
+```
+org 100h
+
+mov ax,2a35h
+mov bx,5f35h
+
+and ax,bx
+
+hlt
+```
+## Output
+<img width="1118" height="801" alt="Screenshot 2025-08-21 133453" src="https://github.com/user-attachments/assets/bcd11a97-056f-4338-868c-885be59fce96" />
+
+## OR of 16 bit numbers ALP
+```
+org 100h
+
+mov ax,2a35h
+mov bx,5f35h
+
+or ax,bx
+
+hlt
+```
+## Output 
+<img width="1101" height="811" alt="Screenshot 2025-08-21 133600" src="https://github.com/user-attachments/assets/9888f810-39a8-40db-882c-492ffaed76a3" />
+
+## NOT of 16 bit numbers ALP
+```
+org 100h
+
+mov ax,2a35h
+
+not ax
+
+hlt
+```
+## Output 
+<img width="1089" height="807" alt="Screenshot 2025-08-21 133804" src="https://github.com/user-attachments/assets/45c4e083-ee05-4d6c-b903-8c0cf0240652" />
+
+## XOR of 16 bit numbers ALP
+```
+org 100h
+
+mov ax,2a35h
+mov bx,5f35h
+
+xor ax,bx
+
+hlt
+```
+## Output
+<img width="1113" height="815" alt="Screenshot 2025-08-21 133709" src="https://github.com/user-attachments/assets/e57f1779-b8ac-4760-9ef3-e4139680cf50" />
+
 
 ## Result :
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
