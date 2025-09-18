@@ -1,8 +1,7 @@
-# EXPERIMENT--01-ALP-FOR-8086
+# EXPERIMENT-01 ALP FOR 8086
 ```
 Name :Jesubalan A
 Roll no: 212223240060
-Date of experiment : 21/08/2025
 ```
 
 
